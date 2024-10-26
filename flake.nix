@@ -49,7 +49,7 @@
             garnix.server.persistence = {
 		enable = true;
 		name = "keep-bash-history";
-	    }
+	    };
             playerConfig = {
               # Your github user:
               githubLogin = "dvaerum";
