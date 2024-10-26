@@ -20,7 +20,7 @@
       let pkgs = import nixpkgs { inherit system; };
       in rec {
         packages = {
-          webserver = apps.default;
+          webserver = apps;
           default = packages.webserver;
         };
         apps.default = {
