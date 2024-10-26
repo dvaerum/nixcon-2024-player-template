@@ -57,7 +57,7 @@
               webserver = self.packages.${system}.webserver;
               # If you want to log in to your deployed server, put your SSH key
               # here:
-              sshKey = "<YOUR_PUBLIC_SSH_KEY>";
+              sshKey = "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIMywHrflxqsXFhTa0v8t4ht6hG5DdWNZhYAjdDtoRFHX openpgp:0x3EC5D9A9";
             };
           })
         ];
