@@ -46,6 +46,10 @@
           garnix-lib.nixosModules.garnix
           self.nixosModules.nixcon-garnix-player-module
           ({ pkgs, ... }: {
+            garnix.server.persistence = {
+		enable = true;
+		name = "keep-bash-history";
+	    }
             playerConfig = {
               # Your github user:
               githubLogin = "dvaerum";
