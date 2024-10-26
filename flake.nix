@@ -20,7 +20,7 @@
       let pkgs = import nixpkgs { inherit system; };
       in rec {
         packages = {
-          webserver = pkgs.nginx;
+          webserver = apps.default;
           default = packages.webserver;
         };
         apps.default = {
